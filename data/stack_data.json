@@ -2210,50 +2210,50 @@
 }
 ],
 "teams": [{
-	"name" : "2v2",
-	"QB" : "nan",
+	"name" : "team1",
+	"QB" : "Lamar Jackson",
 	"RBs" : [
-		"Alvin Kamara",
-		"nan"
+		"Aaron Jones",
+		"James Conner"
 	],
 	"WRs" : [
 		"Justin Jefferson",
 		"nan",
 		"nan"
 	],
-	"TE" : "nan",
+	"TE" : "Jonnu Smith",
 	"DST" : "nan",
 	"flex" : "nan"
 },
 {
 	"name" : "default",
-	"QB" : "nan",
+	"QB" : "Tom Brady",
 	"RBs" : [
-		"Dalvin Cook",
-		"nan"
+		"Joe Mixon",
+		"Melvin Gordon"
 	],
 	"WRs" : [
 		"Will Fuller",
 		"nan",
 		"nan"
 	],
-	"TE" : "nan",
+	"TE" : "Noah Fant",
 	"DST" : "nan",
 	"flex" : "nan"
 },
 {
-	"name" : "2v2C",
-	"QB" : "nan",
+	"name" : "team3",
+	"QB" : "Patrick Mahomes",
 	"RBs" : [
 		"Derrick Henry",
-		"nan"
+		"Mike Davis"
 	],
 	"WRs" : [
 		"Terry McLaurin",
 		"nan",
 		"nan"
 	],
-	"TE" : "nan",
+	"TE" : "Mark Andrews",
 	"DST" : "nan",
 	"flex" : "nan"
 }]

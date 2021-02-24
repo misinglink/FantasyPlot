@@ -1,3 +1,25 @@
+function addTeamToFile (team) {
+  const fs = require('fs');
+  const path = require('path');
+
+  out_obj = {
+    'name': team[0],
+    'QB': team[1],
+    "RBs":[team[2], team[3]],
+    "WRs": [team[4], team[5], team[6]],
+    "TE": team[7],
+    "DST":team[8],
+    "flex":team[9]
+  }
+  
+  console.log(out_obj)
+}
+
+function deleteTeamFromFile () {
+
+}
+
+
 function addPlayerTag(appendee, obj) {
   // gets called on the team builder event handlers
 //   Manipulates DOM to reflect the newest player selection

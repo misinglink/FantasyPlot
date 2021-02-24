@@ -645,11 +645,9 @@ d3.json("data/stack_data.json").then(function (data) {
       flex = "nan";
     }
 
+    // add player to file and refresh page to reflect changes
     var teamPlayers = [teamName, qb, rb1, rb2, wr1, wr2, wr3, te, dst, flex];
-    teamPlayers = teamPlayers.map((elem) => {
-      return elem.split(" ").join("-");
-    });
-    urlString = `/${teamPlayers.join("/")}`;
-    window.location.replace(urlString);
+    addTeamToFile(teamPlayers);
+    window.location.reload();
   });
 });
